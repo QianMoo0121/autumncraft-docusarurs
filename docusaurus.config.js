@@ -115,25 +115,26 @@ const config = {
     }),
 };
 
-// In your `docusaurus.config.js`:
 module.exports = {
-  // ... Your other configurations.
-  themes: [
-    // ... Your other themes.
+  plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-
-        // For Docs using Chinese, it is recomended to set:
-        language: ["en", "zh"],
-
-        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
-        // forceIgnoreNoIndex: true,
-      }),
+      '@easyops-cn/docusaurus-search-local',
+      {
+        // 基础配置
+        indexDocs: true,      // 索引文档（默认开启）
+        indexBlog: true,      // 索引博客（默认开启）
+        indexPages: false,    // 索引静态页面（默认关闭）
+        // 路径匹配
+        docsRouteBasePath: ['/docs'],  // 文档路径（与项目配置一致）
+        blogRouteBasePath: ['/blog'],  // 博客路径
+        // 语言设置（支持多语言）
+        language: ['en', 'zh'],        // 包含中文需安装nodejieba
+        // 增强配置
+        hashed: true,         // 启用哈希缓存（推荐）
+        highlightSearchTermsOnTargetPage: true, // 高亮搜索结果关键词
+        searchResultLimits: 8,        // 搜索结果数量限制
+        ignoreFiles: [/meta/]
+      },
     ],
   ],
 };
