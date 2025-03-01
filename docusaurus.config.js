@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '枫叶源AutumnCraft',
-  tagline: '助理新人快速了解服务器',
+  tagline: '助力新人快速了解服务器',
   url: 'https://docs.autumncraft.icu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['en', 'zh_Hans'], 
+    locales: ['zh_Hans'], 
   },
 
   presets: [
@@ -131,7 +131,7 @@ module.exports = {
         docsRouteBasePath: ['/docs'],  // 文档路径（与项目配置一致）
         blogRouteBasePath: ['/blog'],  // 博客路径
         // 语言设置（支持多语言）
-        language: ['en', 'zh'],        // 包含中文需安装nodejieba
+        language: ['zh'],        // 包含中文需安装nodejieba
         // 增强配置
         hashed: true,         // 启用哈希缓存（推荐）
         highlightSearchTermsOnTargetPage: true, // 高亮搜索结果关键词
