@@ -64,8 +64,8 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: '快速开始',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
             label: '快速开始',
           },
