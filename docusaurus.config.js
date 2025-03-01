@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '快速开始/intro',
             position: 'left',
             label: '快速开始',
           },
