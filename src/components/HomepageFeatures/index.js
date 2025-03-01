@@ -8,13 +8,13 @@ const FeatureList = [
     Svg: require('@site/static/img/1.png').default,
     description: (
       <>
-       用最简单的语言帮助你快速了解枫叶源
+        用最简单的语言帮助你快速了解枫叶源
       </>
     ),
   },
   {
     title: '图文并茂',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/2.png').default,
     description: (
       <>
         文档编写运用大量图文并茂，易懂且形象
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '时效性强',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/3.png').default,
     description: (
       <>
         文档随服务器内容变化而变化，不怕过时的内容
