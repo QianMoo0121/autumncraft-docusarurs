@@ -116,6 +116,9 @@ const config = {
 };
 
 module.exports = {
+  title: '枫叶源AutumnCraft',
+  url: 'https://docs.autumncraft.icu/',
+  baseUrl: '/',
   plugins: [
     [
       '@easyops-cn/docusaurus-search-local',
