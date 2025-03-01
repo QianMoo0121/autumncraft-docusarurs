@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '枫叶源AutumnCraft',
+  tagline: '助理新人快速了解服务器',
+  url: 'https://docs.autumncraft.icu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'QianMo_ProMax', // Usually your GitHub org/user name.
+  projectName: '枫叶源AutumnCraft', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '枫叶源AutumnCraft',
         logo: {
-          alt: 'My Site Logo',
+          alt: '助力新人快速了解服务器',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,13 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: '快速开始',
           },
         ],
       },
@@ -81,46 +75,38 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '友情链接',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '牛腩小镇',
+                href: 'https://wwww.newnan.city/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '联系我们',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'QQ群',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=f3wSzr7aeKBMYEdaQz6J8HM7KsBv3-RV&jump_from=webapi&authKey=vvzOJZqgtexA9m1SmMv1TMN1CV25vQRuE5AggWVFQMnBj2w0W+vH24ON0TaCEVFK',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'KOOK',
+                href: 'https://kook.vip/kvENs5',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/QianMoo0121',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 枫叶源AutumnCraft All rights reserved. 感谢 Docusaurus 提供文档框架；感谢 Vercel 提供建站平台.`,
       },
       prism: {
         theme: lightCodeTheme,
