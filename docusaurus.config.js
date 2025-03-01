@@ -130,7 +130,7 @@ module.exports = {
         docsRouteBasePath: ['/docs'],  // 文档路径（与项目配置一致）
         blogRouteBasePath: ['/blog'],  // 博客路径
         // 语言设置（支持多语言）
-        language: ['zh_Hans'],        // 包含中文需安装nodejieba
+        language: ['zh-Hans'],        // 包含中文需安装nodejieba
         // 增强配置
         hashed: true,         // 启用哈希缓存（推荐）
         highlightSearchTermsOnTargetPage: true, // 高亮搜索结果关键词
