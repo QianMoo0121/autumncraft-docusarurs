@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '简单明了',
-    Svg: require('@site/static/img/1.png').default,
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
         用最简单的语言帮助你快速了解枫叶源
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '图文并茂',
-    Svg: require('@site/static/img/2.png').default,
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
         文档编写运用大量图文并茂，易懂且形象
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '时效性强',
-    Svg: require('@site/static/img/3.png').default,
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
         文档随服务器内容变化而变化，不怕过时的内容
